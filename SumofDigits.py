@@ -13,6 +13,8 @@
 # print("sum",total)
 
 
+
+
 # Reverse a number
 
 # Example:
@@ -29,6 +31,14 @@
 #     a=a//10
     
 # print("reverse",b)
+
+a="Varsha"
+total=0
+while a>0:
+    d=a%10
+    total=total*10+d
+    a=a//10
+print(total)
 
 # palindrome
 # 121 → Palindrome  
